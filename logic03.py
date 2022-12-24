@@ -7,4 +7,7 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    result = a < 0 and b < 0
+    return result
+print(main(-1 , -3))
+print(main(6 , -4))
