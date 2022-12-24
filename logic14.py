@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    digit1 = a % 10
+    digit2 = a // 10
+    sum = digit1 + digit2
+    result = sum % 2 == 1
+    return result
+print(main(45))
+print(main(35))
