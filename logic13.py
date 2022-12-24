@@ -8,7 +8,8 @@ def main(a):
     """
     digit1 = a % 10
     digit2 = a // 10
-    result = digit1 % 2 == 1 and digit2 % 2 == 1
+    sum = digit1 + digit2
+    result = sum % 2 == 0
     return result
 print(main(35))
 print(main(49))
